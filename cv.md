@@ -3,13 +3,13 @@
 Alexei Petrovskiy
 ##2. Contacts
   E-mail: pas1-by@yandex.ru
-  mobile: +375447381891
+  mobile: +375447381892
 ##3. Summary
   I want  to become a highly qualified specialist, become worthy and  
   respected member of society.I want to have worthy salary to provide
   with money myself and my family.I'll make every effort to succeed.
   Web - the specialization that in my mind suita me more than others 
-  and i like it more than others.
+  and I like it more than others.
 ## 4. Skills
 C++ and JavaScript basics, HTML and CSS(flexbox , grid)
 ##5. Code example
@@ -58,7 +58,7 @@ C++ and JavaScript basics, HTML and CSS(flexbox , grid)
 
      });
 
-##6. Expirience
+##6. Experience
 1. Website development varying complexity(companies sites, business cards)
 2. development of information control systems
 3. SEO optimization
