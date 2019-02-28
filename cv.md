@@ -1,19 +1,29 @@
-#RESUME   
-##1. Name
+# RESUME
+
+## 1. Name
+
 Alexei Petrovskiy
-##2. Contacts
-  E-mail: pas1-by@yandex.ru
+
+## 2. Contacts
+
+  E-mail: pas1-by@yandex.ru  
   mobile: +375447381892
-##3. Summary
-  I want  to become a highly qualified specialist, become worthy and  
-  respected member of society.I want to have worthy salary to provide
-  with money myself and my family.I'll make every effort to succeed.
-  Web - the specialization that in my mind suita me more than others 
+  
+## 3. Summary
+
+  I want  to become a highly qualified specialist, become worthy and    
+  respected member of society.I want to have worthy salary to provide  
+  with money myself and my family.I'll make every effort to succeed.  
+  Web - the specialization that in my mind suita me more than others   
   and I like it more than others.
+  
 ## 4. Skills
+
 C++ and JavaScript basics, HTML and CSS(flexbox , grid)
-##5. Code example
-    $(document).ready(function () {
+
+## 5. Code example
+
+      $(document).ready(function () {
 
       // VARIABLES
       var calc = $('.calculator');
@@ -58,13 +68,15 @@ C++ and JavaScript basics, HTML and CSS(flexbox , grid)
 
      });
 
-##6. Experience
-1. Website development varying complexity(companies sites, business cards)
-2. development of information control systems
-3. SEO optimization
+## 6. Experience
 
-##7. Education
+1. Website development varying complexity(companies sites, business cards)  
+2. development of information control systems  
+3. SEO optimization  
+
+## 7. Education
+
 Now I'm studying at BSUIR on the 3d course(speciality of ASOI)
 
-##8.  English
+## 8.  English   
 Pre-intermediate level. I've attended english courses from 7 to 10 grade.
