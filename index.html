@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Saira" rel="stylesheet">
+</head>
+<body>
+    <header>
+            <ul>
+                <li><a href="#Name">Name</a></li>
+                <li><a href="#Contacts">Contacts</a></li>
+                <li><a href="#Summary">Summary</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Code_example">Code example</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#English">English</a></li>
+            </ul>
+    </header>
+    <main>
+        <section class="resume">
+            <h1>RESUME</h1>
+            <div class="image"></div>
+        </section>
+        <section id="Name">
+            <h2>1. Name</h2>
+            <p>Alexei Petrovskiy</p>
+        </section>
+        <section id="Contacts">
+            <h2>2. Contacts</h2>
+            <ul>
+                <li>E-mail: pas1-by@yandex.ru</li>
+                <li>mobile: +375447381892</li>
+            </ul>
+        </section>
+        <section id="Summary">
+            <h2>3. Summary</h2>
+            <p>I want to become a highly qualified specialist, become worthy and 
+                    respected member of society.I want to have worthy salary to provide
+                    with money myself and my family.I’ll make every effort to succeed.
+                    Web - the specialization that in my mind suits me more than others 
+                    and I like it more than others.</p>
+        </section>
+        <section id="Skills">
+            <h2>4. Skills</h2>
+            <ul>
+                    <li>C++ and JavaScript basics</li>
+                    <li>HTML and CSS(flexbox , grid)</li>
+                </ul>
+        </section>
+        <section id="Code_example">
+            <h2>5. Code example</h2>
+            <p>
+                <code>
+                    <pre>
+                        $(document).ready(function () {
+                            // VARIABLES
+                            var calc = $('.calculator');
+                            var calcDisplay = calc.find('.calculator__display');
+                            var calcKeys = calc.find('.calculator__key');
+                            var calcButton = calc.find('.calculator__button');
+                            var calcClear = calc.find('.calculator__clear');
+                            var calcEqual = calc.find('.calculator__key--equal');
+                            var calcPower = calc.find('.calculator__power');
+                            var calcSpace = calc.find('.calculator__backspace');
+                        
+                            // INIT CALC KEYS
+                            calcKeys.each(function () {
+                                var current = $(this).attr('value');
+                                $(this).text(current);
+                            });
+                        
+                            // ADD NUMBERS TO INPUT
+                            calcButton.on('click', function () {
+                                calcDisplay.val( calcDisplay.val() + $(this).attr('value') );
+                            });
+                        
+                            // CLEAR INPUT
+                            calcClear.on('click', function () {
+                                calcDisplay.val('');
+                            });
+                        
+                            // SHOW RESULT
+                            calcEqual.on('click', function () {
+                                calcDisplay.val( eval( calcDisplay.val() ) );
+                            });
+                        
+                            // POWER BUTTON
+                            calcPower.on('click', function () {
+                                calcDisplay.val( Math.pow( calcDisplay.val(), 3 ) );
+                            });
+                        
+                            // BACKSPACE BUTTON
+                            calcSpace.on('click', function () { // http://www.w3schools.com/jsref/jsref_substring.asp
+                                calcDisplay.val( calcDisplay.val().substring(0, calcDisplay.val().length-1) );
+                            });
+                        
+                        });
+                    </pre>
+                </code>   
+            </p>
+        </section>
+        <section id="Experience">
+            <h2>6. Experience</h2>
+            <ol>
+                <li>Website development varying complexity(companies sites, business cards)</li>
+                <li>development of information control systems</li>
+                <li>SEO optimization</li>
+            </ol>
+        </section>
+        <section id="Education">
+            <h2>7. Education</h2>
+            <p>Now I’m studying at BSUIR on the 3d course(speciality of ASOI)</p>
+        </section>
+        <section id="English">
+            <h2>8. English</h2>
+            <p>Pre-intermediate level. I’ve attended english courses from 7 to 10 grade.</p>
+        </section>
+    </main>
+</body>
+</html>
