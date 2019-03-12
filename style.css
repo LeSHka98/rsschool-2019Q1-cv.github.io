@@ -10,7 +10,14 @@ body {
 }
 
 
-
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: url("https://pp.userapi.com/c636622/v636622030/1be57/58OVCrs0-yM.jpg") no-repeat 50% 5%;
+    background-size: 100%;
+    display: inline-block;
+}
 
 h1,
 h2
