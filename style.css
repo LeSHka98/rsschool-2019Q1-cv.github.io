@@ -9,6 +9,10 @@ body {
     font-family: "Helvetica", sans-serif;
 }
 
+.resume {
+    text-align: center;
+    margin: 0 auto;
+ }
 
 .image {
     width: 200px;
