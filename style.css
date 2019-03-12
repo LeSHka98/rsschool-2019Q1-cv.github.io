@@ -9,6 +9,35 @@ body {
     font-family: "Helvetica", sans-serif;
 }
 
+header {
+    background-color: #323232;
+    height: 50px;
+}
+
+header ul {
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul a {
+    text-decoration: none;
+    color:#fff;
+    font-size: 14px;
+    line-height: 50px;
+}
+
+header ul a:hover {
+    color:#16a6b6;
+}
+
+header ul li:not(:last-child) {
+    margin-right: 3%;
+}
+
 .resume {
     text-align: center;
     margin: 0 auto;
